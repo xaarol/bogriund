@@ -1,0 +1,168 @@
+body{
+    background-color: #cfe8dc;
+    margin: 0;
+    padding: 30px 10px;
+}
+html{
+    scroll-behavior: smooth;
+}
+.constitution:visited{
+    text-decoration: wavy underline;
+}
+.constitution:hover{
+    text-decoration: underline;
+    color: #8a8211;
+    font-size: 17.5px;
+}
+.constitution{
+    color: #c5b913;
+    text-decoration: none;
+    font-size: 17px;
+}
+.bank:visited{
+    text-decoration: wavy underline;
+}
+.bank:hover{
+    text-decoration: underline;
+    color: #1a492c;
+    font-size: 17.5px;
+}
+.bank{
+    color: #43a151;
+    text-decoration: none;
+    font-size: 17px;
+}
+.fortress:visited{
+    text-decoration: wavy underline;
+}
+.fortress:hover{
+    text-decoration: underline;
+    color: #086a97;
+    font-size: 17.5px;
+}
+.fortress{
+    color: #1175d3;
+    text-decoration: none;
+    font-size: 17px;
+}
+.map:visited{
+    text-decoration: wavy underline;
+}
+.map:hover{
+    text-decoration: underline;
+    color: #965c27;
+    font-size: 17.5px;
+
+}
+.map{
+    text-decoration: none;
+    color: #af8028;
+    font-size: 17px;
+}
+.bu{
+    color: #2b9264;
+    text-decoration: none;
+    font-size: 18px;
+}
+.bu:hover{
+    text-decoration: underline;
+    font-size: 19px;
+    color: #1e533b;
+}
+.page{
+    background-color: white;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px 40px;
+    border-radius: 10px;
+    overflow: auto;
+}
+.back-to-top{
+    font-size: 19px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    padding: 10px 14px;
+    border-radius: 8px;
+    background-color: #2e7d5b;
+    color: white;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+.back-to-top:hover{
+    background-color: #246548;
+}
+h1{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    color: #000000;
+    text-align: center;
+    letter-spacing: 2px;
+    width: fit-content;
+    margin: 0 auto 30px auto;
+    padding-bottom: 8px;
+    padding-top: 14px;
+}
+h2{
+    font-family: 'Linux Libertine', 'Georgia', 'Times', 'Source Serif 4', serif;
+    font-weight: bold;
+    color: #2e7d5b;
+    border-left: 4px solid #2e7d5b;
+    padding-left: 10px;
+    clear: both;
+}
+h3{
+    font-family: sans-serif;
+    font-weight: 400;
+}
+p{
+    font-family: sans-serif;
+    text-indent: 17px;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 22px;
+}
+.toc{
+    list-style: none;
+    padding-left: 15px;
+    margin-bottom: 30px;
+}
+.toc li{
+    margin: 5px 0;
+}
+.fr{
+    border: solid grey 1px;
+    float: right;
+    padding: 10px;
+    margin: 10px;
+}
+.fr figcaption{
+    color: #222;
+    text-align: center;
+}
+.fl{
+    border: solid grey 1px;
+    float: left;
+    padding: 10px;
+    margin: 10px;
+    width: 32%;
+    height: auto;
+}
+.fl figcaption{
+    color: #222;
+    text-align: center;
+}
+.fc{
+    border: solid grey 1px;
+    width: fit-content;
+    padding: 10px;
+    margin: 18px auto;
+}
+.fc figcaption{
+    color: #222;
+}
+img{
+    max-width: 100%;
+}
+

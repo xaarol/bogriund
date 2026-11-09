@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    background: radial-gradient(circle, #357abb 0%, #000000 100%);
+    color: #ffffff;
+}
+h1 {
+    color: #445a6e;
+}
+ul, ol, dl {
+    margin-bottom: 25px;
+    padding-left: 40px;
+}
+li {
+    margin-bottom: 5px;
+}
+.m1 {
+    list-style-type: circle;
+}
+.o1 {
+    list-style-type: upper-roman;
+}
+.o2::marker {
+    color: #e74c3c;
+    font-weight: bold;
+}
+@counter-style lower-ukrainian {
+    system: alphabetic;
+    symbols: 'а' 'б' 'в' 'г' 'д' 'е' 'є' 'ж' 'з' 'и' 'і' 'ї' 'й' 'к' 'л' 'м' 'н' 'о' 'п' 'р' 'с' 'т' 'у' 'ф' 'х' 'ц' 'ч' 'ш' 'щ' 'ь' 'ю' 'я';
+    suffix: ") ";
+}
+.l1 {
+    list-style: lower-ukrainian;
+}
+@counter-style emoji-style {
+    system: cyclic;
+    symbols: '⭐' '🎨' '🎮' '🚀' '💻';
+    suffix: " ";
+}
+.l2 {
+    list-style: emoji-style;
+}
+.d1 dt {
+    font-weight: bold;
+    color: #2980b9;
+    margin-top: 10px;
+}
+.d1 dd {
+    margin-left: 20px;
+    font-style: italic;
+    color: #6d6d6d;
+}

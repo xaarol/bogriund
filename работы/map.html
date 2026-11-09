@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сонячна система</title>
+    <link rel="stylesheet" href="css/map.css">
+</head>
+<body>
+    <main class="page">
+        <h1>Сонячна система</h1>
+        <p class="hint">Наведіть курсор на планету, щоб побачити назву, і клацніть щоб відкрити статтю в Вікіпедії в новій вкладці.</p>
+
+        <img class="solar-system" src="images.dz/Сонячна система_ планети на орбітах.png" alt="Сонячна система" usemap="#solar-system">
+        <map name="solar-system">
+            <area shape="circle" coords="245,440,30" href="https://uk.wikipedia.org/wiki/Меркурій" alt="Меркурій" title="Меркурій" target="_blank">
+            <area shape="circle" coords="360,440,50" href="https://uk.wikipedia.org/wiki/Венера" alt="Венера" title="Венера" target="_blank">
+            <area shape="circle" coords="510,440,70" href="https://uk.wikipedia.org/wiki/Земля" alt="Земля" title="Земля" target="_blank">
+            <area shape="circle" coords="650,440,50" href="https://uk.wikipedia.org/wiki/Марс" alt="Марс" title="Марс" target="_blank">
+            <area shape="circle" coords="840,440,100" href="https://uk.wikipedia.org/wiki/Юпітер" alt="Юпітер" title="Юпітер" target="_blank">
+            <area shape="circle" coords="1100,440,90" href="https://uk.wikipedia.org/wiki/Сатурн" alt="Сатурн" title="Сатурн" target="_blank">
+            <area shape="circle" coords="1340,440,60" href="https://uk.wikipedia.org/wiki/Уран_(планета)" alt="Уран" title="Уран" target="_blank">
+            <area shape="circle" coords="1586,440,60" href="https://uk.wikipedia.org/wiki/Нептун_(планета)" alt="Нептун" title="Нептун" target="_blank">
+            <area shape="circle" coords="0,400,175" href="https://uk.wikipedia.org/wiki/Сонце" alt="Сонце" title="Сонце" target="_blank">
+        </map>
+        
+    <script>
+        const img = document.querySelector('.solar-system');
+        const areas = document.querySelectorAll('map[name="solar-system"] area');
+        areas.forEach(a => a.dataset.orig = a.coords);
+
+        function rescale() {
+            if (!img.naturalWidth) return;
+            const k = img.clientWidth / img.naturalWidth;
+            areas.forEach(a => {
+                a.coords = a.dataset.orig.split(',').map(n => Math.round(n * k)).join(',');
+            });
+        }
+
+        img.addEventListener('load', rescale);
+        window.addEventListener('resize', rescale);
+        if (img.complete) rescale();
+    </script>
+    </main>
+</body>
+</html>

@@ -1,0 +1,35 @@
+p{
+    font-size: 50px;
+    background-color: red;
+    color: yellow;
+}
+ul,ol,dl{
+    font-size: 30px;
+    color: red;
+}
+.l1 li{
+    padding-left: 16px;
+}
+ol{
+    margin-left: 100px;
+}
+.l2 li::marker{
+    color: blue;
+}
+@counter-style lower-ukrainian {
+system: alphabetic;
+symbols: '\430' '\431' '\432' '\433' '\434' '\435' '\454' '\436' '\437' '\438' '\456' '\43A' '\43B' '\43C' '\43D' '\43E' '\43F' '\440' '\441' '\442' '\443' '\444' '\445' '\446' '\447' '\448' '\44E' '\44F';
+/* symbols: 'а' 'б' 'в' 'г' 'д' 'е' 'є' 'ж' 'з' 'и' 'і' 'к' 'л' 'м' 'н' 'о' 'п' 'р' 'с' 'т' 'у' 'ф' 'х' 'ц' 'ч' 'ш' 'ю' 'я'; */
+suffix: ') ';
+}
+.ukr{
+    list-style: lower-ukrainian;
+}
+@counter-style emoji {
+  system: cyclic;
+  symbols: 😀 👻 👽 👾 🤖 🎃 😹 👋 👀 💋;
+  suffix: " ";
+}
+.emoji{
+    list-style: emoji;
+}

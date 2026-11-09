@@ -1,0 +1,163 @@
+body{
+    background-color: rgb(44, 102, 211);
+}
+.p1{
+    color: black;
+   font-size: 100px;
+}
+.p2{
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    font-style: normal;
+    color: #60a5fa;
+    text-transform: uppercase;
+    text-decoration: underline dotted #f87171;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+.p3{
+    font-family: Georgia, serif;
+    font-size: 34px;
+    font-weight: 700;
+    font-style: italic;
+    color: #2dd4bf;
+    text-transform: capitalize;
+    text-decoration: overline dashed #fbbf24;
+    text-shadow: 2px 2px 5px rgba(45,212,191,0.3);
+}
+.p4{
+    font-family: 'Courier New', monospace;
+    font-size: 28px;
+    font-weight: 600;
+    color: #fbbf24;
+    text-transform: lowercase;
+    text-decoration: line-through solid #a78bfa;
+    text-shadow: 0 0 8px rgba(251,191,36,0.4);
+}
+.p5{
+    font-family: 'Times New Roman', serif;
+    font-size: 26px;
+    font-style: oblique;
+    color: #fda4af;
+    text-transform: capitalize;
+    text-decoration: underline wavy #34d399;
+    text-shadow: 3px 3px 0px #881337;
+}
+.p6{
+    font-family: Impact, sans-serif;
+    font-size: 27px;
+    font-weight: 800;
+    color: #f87171;
+    text-transform: uppercase;
+    text-decoration: underline solid #60a5fa;
+    text-shadow: 3px 3px 0px #0f172a;
+}
+.p7{
+    font-family: Garamond, serif;
+    font-size: 14px;
+    font-style: italic;
+    color: #e2e8f0;
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+    font-weight: 800;
+    color: #a00721;
+    float: left;
+    text-shadow: 3px 3px 8px rgba(244,63,94,0.6);
+}
+.p8{
+    font-family: 'Caveat', cursive;
+    font-size: 24px;
+    font-weight: 700;
+    color: #c084fc;
+    text-decoration: underline wavy #f472b6;
+    text-shadow: 2px 2px 4px rgba(192,132,252,0.4);
+}
+.p9{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+    font-weight: 300;
+    font-style: italic;
+    color: #f1f5f9;
+    text-transform: uppercase;
+    text-decoration: line-through dashed #f87171;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.4);
+}
+.p10{
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    color: #fb923c;
+    text-transform: capitalize;
+    text-decoration: overline solid #2dd4bf;
+    text-shadow: 2px 2px 6px rgba(251,146,60,0.4);
+}
+.p11{
+    font-family: 'Press Start 2P', monospace;
+    font-size: 28px;
+    color: #4ade80;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 0px #022c22;
+}
+.p12{
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    font-style: italic;
+    color: #38bdf8;
+    text-transform: lowercase;
+    text-decoration: underline solid #94a3b8;
+    text-shadow: 1px 1px 3px rgba(56,189,248,0.3);
+}
+.p13{
+    font-family: Tahoma, sans-serif;
+    font-size: 23px;
+    font-weight: 600;
+    color: #a855f7;
+    text-transform: capitalize;
+    text-decoration: underline dashed #2dd4bf;
+    text-shadow: 0 0 12px rgba(168,85,247,0.6);
+}
+.p14{
+    font-family: Verdana, sans-serif;
+    font-size: 29px;
+    font-weight: 800;
+    font-style: oblique;
+    color: #60a5fa;
+    text-transform: uppercase;
+    text-shadow: -2px 2px 0px #1e293b;
+}
+.p15{
+    font-family: 'Comfortaa', cursive;
+    font-size: 31px;
+    font-weight: 700;
+    color: #f472b6;
+    text-transform: capitalize;
+    text-decoration: underline wavy #38bdf8;
+    text-shadow: 2px 2px 4px rgba(244,114,182,0.4);
+}
+.p16{
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    font-weight: 700;
+    font-style: italic;
+    color: #93c5fd;
+    text-transform: uppercase;
+    text-decoration: overline wavy #f59e0b;
+    text-shadow: 1px 1px 2px #1e3a8a;
+}
+.s1{
+    font-family: 'Lobster', cursive;
+    font-size: 80px;
+    color: #000000;
+    float: left;
+    text-shadow: 3px 3px 8px rgba(39, 38, 38, 0.6);
+}
+.p17{
+    font-family: 'Lobster', cursive;
+      font-size: 60px;
+      color: #ff007f;
+      letter-spacing: 4px;
+      text-align: center;
+      text-shadow: 
+        3px 3px 0px #2a0845,
+        0px 0px 20px rgba(255, 0, 127, 0.6);
+}
